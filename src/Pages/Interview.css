@@ -1,0 +1,63 @@
+/* styles.css
+
+/* Common styles for each student's div */
+/*.student-div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the student's image */
+  /* .student-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  } */
+  
+  /* Hover effect on student's div */
+  /* .student-div:hover {
+    background-color: #f0f0f0;
+  } */
+  /* styles.css */
+
+/* Common styles for each student's div */
+.student-div {
+    display: flex;
+    flex-direction: column;  /* Stack students vertically */
+    align-items: center;     /* Center content horizontally */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    background-color:gainsboro;
+    border: 10px rgb(161, 107, 21);
+  }
+  
+  /* Styles for the student's image */
+  .student-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Hover effect on student's div */
+  .student-div:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Zoom effect for the selected student */
+  .zoomed {
+    transform: scale(1.2);  /* Increase scale to zoom effect */
+  }
+  .sname{
+    color:rgb(56, 87, 40);
+  }
+   

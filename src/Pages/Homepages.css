@@ -1,0 +1,45 @@
+/* Homepages.css
+
+/* Ensure all navbar items are visible without scrolling right */
+.Navbars {
+  overflow-x: hidden;
+}
+
+/* Adjust the image height and center it */
+.img-container {
+  text-align: center;
+  margin-top: 20px; /* Add margin-top as needed */
+}
+
+.img {
+  height:fit-content/* Adjust the image height as needed */
+}
+
+/* Style the contact information block */
+.contact-container {
+  margin-top: 20px; /* Add margin-top as needed */
+  background-color: #385728;
+  color: white;
+  padding: 20px;
+}
+
+/* Style the social media icons */
+.contact-container a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+/* Ensure all the contact information is on one side */
+.contact-info {
+  text-align: center;
+}
+
+/* Style the social media icons on the other side */
+.social-icons{
+  align-self: center;
+}
+.img{
+  margin:20px 20px 20px 20px auto;
+  
+}

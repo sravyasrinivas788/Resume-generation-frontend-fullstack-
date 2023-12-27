@@ -1,0 +1,48 @@
+/* Navbars.css */
+
+.fixed-navbar {
+    background-color: #fff; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo,
+  .matter,
+  .nav-buttons {
+    width: 33.33%;
+    text-align: center; /* Center the text within the sections */
+  }
+  
+  .logo {
+    max-width: 50%; /* Ensure the logo doesn't exceed its container width */
+  }
+  
+  .matter {
+    margin-left: auto; /* Move .matter to the right within its container */
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login-button {
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #991e20;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+   

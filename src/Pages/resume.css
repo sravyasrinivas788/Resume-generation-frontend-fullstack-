@@ -1,0 +1,60 @@
+/* Resume.css */
+
+.resume-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.quote {
+  margin-bottom: 20px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-block {
+  flex: 1;
+  margin: 0 10px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  text-align: left;
+  background-color:gainsboro;
+}
+
+.info-block h2 {
+  color: #385728;
+}
+
+.info-block p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.info-container :hover{
+  background-color:white;
+}
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.resume-button {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  background-color: #385728;
+  display: flex;
+  align-items: center;
+}
+
+.resume-button:hover {
+  background-color: #2d4821;
+}

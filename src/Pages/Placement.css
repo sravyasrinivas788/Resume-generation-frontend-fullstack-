@@ -1,0 +1,55 @@
+/* Placement.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .placement-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:gainsboro; 
+  }
+  
+  .page-content {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Make the input and button centered with a gap between them */
+  .search-bar .ant-input-lg {
+    width: max-content;
+     /* Set a maximum width for responsiveness */
+    margin-bottom: 10px;
+  }
+  
+  .search-bar .ant-btn {
+    width: 50%;
+    max-width: 400px; /* Set a maximum width for responsiveness */
+  }
+  
+  /* Style the list of matching resumes */
+  .matching-resumes {
+    width: 100%;
+  }
+  .student-div{
+    margin: 10px;
+
+
+  }
+  

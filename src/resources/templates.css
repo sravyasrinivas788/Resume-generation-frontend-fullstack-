@@ -1,0 +1,114 @@
+
+.home .template{
+    margin: 20px;
+    box-shadow: 0 0 3px gray;
+   padding: 20px;
+   position: relative;
+   width: 350px;
+}
+
+.home .template .text{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.home .template .text:hover{
+    background-color: black;
+    opacity: 0.8;
+    color: white !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+.home .template button{
+    background-color: white !important;
+    color: black !important;
+    font-size: 16px !important;
+    padding: 0 20px;
+}
+
+
+
+/* template1 styling */
+.template1-parent{
+    color: rgba(0, 0, 0, 0.699) !important;
+    padding: 100px;
+    height: max-content;
+}
+.template1-parent h1{
+    color: rgba(0, 0, 0, 0.699) !important;
+    font-size: 35px;
+    font-weight: bold;
+}
+.template1-parent p{
+    padding-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 2px !important;
+    font-size: 16px;
+}
+.template1-parent h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.template1-parent h6{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.template4-parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .template4-left,
+  .template4-right {
+    width: 48%; /* Adjust the width as needed */
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .divider {
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+  }
+  
+  .objective,
+  .education,
+  .projects,
+  .skills,
+  .contact {
+    margin-bottom: 20px;
+  }
+  
+  .projects h4 {
+    margin-bottom: 5px;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+  }
+  
+  .contact a {
+    display: block;
+    margin-top: 5px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .contact a:hover {
+    color: #007bff;
+  }
